@@ -18,13 +18,17 @@ set pastetoggle=<F12>
 set fileencodings=utf8,big5
 set encoding=utf8
 set mouse=a
+" Show hidden char
+set listchars=tab:>-,trail:×,precedes:«,extends:»,space:␣,eol:¬
+"set list
+
 filetype off
 
 " vim-plug -----------
 call plug#begin()
 Plug 'junegunn/vim-plug'
 Plug 'junegunn/vim-easy-align'
-"Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'easymotion/vim-easymotion'
 "Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
